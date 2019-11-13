@@ -1,0 +1,5 @@
+<h1>Legumes du {{d|date :'dd/MMM/yyyy'}}</h1>
+<app-legume *ngFor="let t of tableLegumes" [legume]="t" ></app-legume>
+<p>Donnez un prix minimum: <input type="number"/></p>
+<p>Le nombre de legumes ayant un prix > {{t.prix}} Dt est {{nb}}</p>
+
